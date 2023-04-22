@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT blog (date,author,summary+,body)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT summary (image_path,text)>
+<!ELEMENT image_path(#PCDATA)>
+<!ELEMENT text(#PCDATA)>
+<!ELEMENT body (#PCDATA)>
