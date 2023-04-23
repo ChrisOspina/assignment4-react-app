@@ -1,14 +1,21 @@
 import './App.css';
+import Home from "./src/Home.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header"></header>
+        <main>
         <p>
           Hello World
         </p>
-      </header>
-    </div>
+        </main>
+        <nav>
+
+          
+        </nav>
+        <footer></footer>
+        </div>
   );
 }
 

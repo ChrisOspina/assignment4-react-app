@@ -1,42 +1,40 @@
 <blog>
 	<post>
-		<date>December 9, 2014</date>
-		<author>Kelly Dickerson</author>
-		<title>Quantum Teleportation Reaches Farthest Distance Yet</title>
+		<date>April 22, 2023</date>
+		<author>Christopher Ospina</author>
+		<title>How will AI change the world</title>
 		<summary>
-			<image_path>https://scx1.b-cdn.net/csz/news/175u/2020/theexperimen.jpg</image_path>
-			<text>A new distance record has been set in the strange world of quantum teleportation.</text>
+			<image_path></image_path>
+			<text>How I think AI will change the world</text>
 		</summary>
-		<body>In a recent experiment, the quantum state (the direction it was spinning) of a light particle instantly traveled 15.5 miles (25 kilometers) across an optical fiber, becoming the farthest successful quantum teleportation feat yet. Advances in quantum teleportation could lead to better Internet and communication security, and get scientists closer to developing quantum computers.
-
-		About five years ago, researchers could only teleport quantum information, such as which direction a particle is spinning, across a few meters. Now, they can beam that information across several miles. [Twisted Physics: 7 Mind-Blowing Findings]
-
-		Quantum teleportation doesn't mean it's possible for a person to instantly pop from New York to London, or be instantly beamed aboard a spacecraft like in television's "Star Trek." Physicists can't instantly transport matter, but they can instantly transport information through quantum teleportation. This works thanks to a bizarre quantum mechanics property called entanglement.
-
-		Quantum entanglement happens when two subatomic particles stay connected no matter how far apart they are. When one particle is disturbed, it instantly affects the entangled partner. It's impossible to tell the state of either particle until one is directly measured, but measuring one particle instantly determines the state of its partner.
-
-		In the new, record-breaking experiment, researchers from the University of Geneva, NASA's Jet Propulsion Laboratory and the National Institute of Standards and Technology used a superfast laser to pump out photons. Every once in a while, two photons would become entangled. Once the researchers had an entangled pair, they sent one down the optical fiber and stored the other in a crystal at the end of the cable. Then, the researchers shot a third particle of light at the photon traveling down the cable. When the two collided, they obliterated each other.
-
-		Though both photons vanished, the quantum information from the collision appeared in the crystal that held the second entangled photon.</body>
+		<body>Aritifical Intelligence has always been part of our daily lives since the 1950s but now we are at the age where
+		AI controls how we perform daily activites as a species such as exchanging money, voting for government officials, software development
+		and even household chores. This may sound like something out of science fiction but it is happening right now in the present day.
+		For example, we are using ChatGBT as an assistant to help us through technical issues. Meanwhile, Elon Musk has developed self-driving cars
+		and the biochip which I predict will be mandated by 2040. There are also mechanical robots that are used for manufacturing. However there is a 
+		dark side to AI. There have been reports of AI becoming self-aware so much that eventually they will revolt on humans and cause 
+		major exctinction to our society. There have been movies about the matter such as Avengers: Age of Ultron and Terminator but if this were to
+		be real it would lead to total disaster. 
+		</body>
 	</post>
 	<post>
-		<date>December 9, 2014</date>
-		<author>Kelly Dickerson</author>
-		<title>Quantum Teleportation Reaches Farthest Distance Yet</title>
+		<date></date>
+		<author>Christopher Ospina</author>
+		<title></title>
 		<summary>
-			<image_path>https://scx1.b-cdn.net/csz/news/175u/2020/theexperimen.jpg</image_path>
-			<text>A new distance record has been set in the strange world of quantum teleportation.</text>
+			<image_path></image_path>
+			<text></text>
 		</summary>
-		<body>In a recent experiment, the quantum state (the direction it was spinning) of a light particle instantly traveled 15.5 miles (25 kilometers) across an optical fiber, becoming the farthest successful quantum teleportation feat yet. Advances in quantum teleportation could lead to better Internet and communication security, and get scientists closer to developing quantum computers.
-
-		About five years ago, researchers could only teleport quantum information, such as which direction a particle is spinning, across a few meters. Now, they can beam that information across several miles. [Twisted Physics: 7 Mind-Blowing Findings]
-
-		Quantum teleportation doesn't mean it's possible for a person to instantly pop from New York to London, or be instantly beamed aboard a spacecraft like in television's "Star Trek." Physicists can't instantly transport matter, but they can instantly transport information through quantum teleportation. This works thanks to a bizarre quantum mechanics property called entanglement.
-
-		Quantum entanglement happens when two subatomic particles stay connected no matter how far apart they are. When one particle is disturbed, it instantly affects the entangled partner. It's impossible to tell the state of either particle until one is directly measured, but measuring one particle instantly determines the state of its partner.
-
-		In the new, record-breaking experiment, researchers from the University of Geneva, NASA's Jet Propulsion Laboratory and the National Institute of Standards and Technology used a superfast laser to pump out photons. Every once in a while, two photons would become entangled. Once the researchers had an entangled pair, they sent one down the optical fiber and stored the other in a crystal at the end of the cable. Then, the researchers shot a third particle of light at the photon traveling down the cable. When the two collided, they obliterated each other.
-
-		Though both photons vanished, the quantum information from the collision appeared in the crystal that held the second entangled photon.</body>
+		<body></body>
+	</post>
+	<post>
+		<date></date>
+		<author>Christopher Ospina</author>
+		<title></title>
+		<summary>
+			<image_path></image_path>
+			<text></text>
+		</summary>
+		<body></body>
 	</post>
 </blog>

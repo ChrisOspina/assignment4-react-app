@@ -5,4 +5,4 @@
 <!ELEMENT summary (image_path,text)>
 <!ELEMENT image_path(#PCDATA)>
 <!ELEMENT text(#PCDATA)>
-<!ELEMENT body (#PCDATA)>
+<!ELEMENT body (#PCDATA)> 
