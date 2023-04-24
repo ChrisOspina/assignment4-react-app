@@ -1,4 +1,4 @@
-<blog>
+ <blog>
 	<post>
 		<date>April 22, 2023</date>
 		<author>Christopher Ospina</author>
@@ -18,14 +18,20 @@
 		</body>
 	</post>
 	<post>
-		<date></date>
+		<date>April 23 2023</date>
 		<author>Christopher Ospina</author>
-		<title></title>
+		<title>My review of the Super Mario Movie</title>
 		<summary>
-			<image_path></image_path>
-			<text></text>
+			<image_path>https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mario-and-luigi-the-super-mario-bros-movie-640adf6e1b728.jpg</image_path>
+			<text>A review of the Super Mario Movie as I saw it last week</text>
 		</summary>
-		<body></body>
+		<body>The Super Mario Movie is so far as of yet the biggest animated film of 2023 and already it has
+		surpassed Disney's Frozen II, but is it really for the hype or will it flop? Let's find out!
+		The plot follows Mario and Luigi as they are transported from Brooklyn to the Mushroom Kingdom they learn
+		from Princess Peach that Bowser itends to use the star to take over the Kingdom only because he has a crush on Peach
+		Mario and Peach intend to use the Kongs for assistance. I really enjoy how they incorporate themes from the Super Mario series
+		into the film's score and hidden references to other Mario media like the satruday morning cartoon and the 1993 live 
+		action movie. I am anticipating a sequel or even a shared Nintendo universe leading to a Super Smash Bros Movie</body>
 	</post>
 	<post>
 		<date></date>
