@@ -1,0 +1,121 @@
+import React, {useState} from 'react';
+import parse from 'xml-parser';
+
+const xml = `<?xml version="1.0" encoding ="UTF-8"?>
+<blog>
+  <posts>
+   <post id="1">
+       <date>April 22, 2023</date>
+       <author>Christopher Ospina</author>
+       <title>How will AI change the world</title>
+       <summary>
+           <image_path></image_path>
+           <text>How I think AI will change the world</text>
+       </summary>
+       <body>Aritifical Intelligence has always been part of our daily lives since the 1950s but now we are at the age where
+       AI controls how we perform daily activites as a species such as exchanging money, voting for government officials, software development
+       and even household chores. This may sound like something out of science fiction but it is happening right now in the present day.
+       For example, we are using ChatGBT as an assistant to help us through technical issues. Meanwhile, Elon Musk has developed self-driving cars
+       and the biochip which I predict will be mandated by 2040. There are also mechanical robots that are used for manufacturing. However there is a 
+       dark side to AI. There have been reports of AI becoming self-aware so much that eventually they will revolt on humans and cause 
+       major exctinction to our society. There have been movies about the matter such as Avengers: Age of Ultron and Terminator but if this were to
+       be real it would lead to total disaster. 
+       </body>
+   </post>
+   <post id="2">
+       <date>April 23 2023</date>
+       <author>Christopher Ospina</author>
+       <title>My review of the Super Mario Movie</title>
+       <summary>
+           <image_path>https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mario-and-luigi-the-super-mario-bros-movie-640adf6e1b728.jpg</image_path>
+           <text>A review of the Super Mario Movie as I saw it last week</text>
+       </summary>
+       <body>The Super Mario Movie is so far as of yet the biggest animated film of 2023 and already it has
+       surpassed Disney's Frozen II, but is it really for the hype or will it flop? Let's find out!
+       The plot follows Mario and Luigi as they are transported from Brooklyn to the Mushroom Kingdom they learn
+       from Princess Peach that Bowser itends to use the star to take over the Kingdom only because he has a crush on Peach
+       Mario and Peach intend to use the Kongs for assistance. I really enjoy how they incorporate themes from the Super Mario series
+       into the film's score and hidden references to other Mario media like the satruday morning cartoon and the 1993 live 
+       action movie. I am anticipating a sequel or even a shared Nintendo universe leading to a Super Smash Bros Movie.
+       This is also part of a renaissance of animation from Universal Pictures that began with The Bad Guys and which included
+       Minions: Rise of Gru and Puss in Boots: The Last Wish. They own Illumination Entertainment and Dreamworks Animation.
+       A Super Mario sequel, a live action How To Train Your Dragon and Shrek 5 have been confirmed to be in the works. Also Epic Universe is under construction
+       at Universal Studios Orlando with Mario themed attractions as well as those from How to Train Your Dragon and
+       Fantastic Beasts. We all need a break from Disney's dominance and I think we are getting close to Universal
+       stealing the spotlight.</body>
+   </post>
+   <post id="3">
+       <date>April 24 2023</date>
+       <author>Christopher Ospina</author>
+       <title>Top 10 Disney World attractions</title>
+       <summary>https
+           <image_path>://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbbitGAYVFzzZvhLmiSUEioiE8cZ8rCaZu_n6B2oiZXA</image_path>
+           <text>A countdown of my Top 10 Disney World Attractions that I have been on</text>
+       </summary>
+       <body>
+       The Disney theme parks are known for their attractions which amuse guests from all around the world. They could tell 
+       an original story or be themed to an existing Disney IP or even third-party if applicable. In these rides it is important
+       that they give guests the whole expierence of being part of the story that the ride is trying to tell. I have been lucky to
+       visit Walt Disney World resort in the past two years and before to expierence these thrills. Here's a countdown of the Top 10
+       attractions at Walt Disney World resort specifically Magic Kingdom, EPCOT and Disney's Hollywood Studios. 
+
+       Note: Splash Mountain is currently closed due to racism issues with its source material and will be rethemed to
+       Tiana's Bayou Adventure based on the 2009 film The Princess and The Frog.
+
+        10. Twilight Zone Tower of Terror (DHS)
+        9. Rock'n Roll Coaster Featuring Aerosmith (DHS)
+        8. The Haunted Mansion (Magic Kingdom)
+        7. Big Thunder Mountain Railroad (Magic Kingdom)
+        6. Toy Story Mania (DHS)
+        5. Pirates of the Caribbean (Magic Kingdom)
+        4. Soarin' (EPCOT)
+        3. Splash Mountain (Magic Kingdom)
+        2. Test Track (EPCOT)
+        1. Star Wars: Rise of the Resistance (DHS)
+       
+        Honorable Mentions:
+         1. Spaceship Earth (EPCOT)
+         2. Frozen Ever After (EPCOT)
+         3. Peter Pan's Flight (Magic Kingdom)
+         4. Seven Dwarfs Mine Train (Magic Kingdom)
+       </body>
+   </post>
+   </posts>
+</blog>`
+
+const posts = parse(xml).root.children[0].children;
+
+const Main =()=>{
+    const[selectedPost, SetselectedPost] = useState(null);
+    const selected = posts.find((post) =>post.attributes.id===post.id);
+    SetselectedPost(selected);
+
+    return(
+        <main>
+            {selectedPost ? (
+                <acticle key={selectedPost.attributes.id}>
+                    <h1>{selectedPost.children.find((el)=> el.name ==='title').content}</h1>
+                    <p>
+                        <span className="date">
+                        {selectedPost.children.find((el)=>el.name==='date').content}
+                        </span>
+                        <span className="author">
+                        {selectedPost.children.find((el)=>el.name==='author').content}
+                        </span>
+                    </p>
+                    <div className='summary '>
+                        <img></img>
+
+
+                    </div>
+
+
+                </acticle>
+
+            )}
+
+        </main>
+
+
+    );
+}

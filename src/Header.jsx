@@ -3,7 +3,7 @@ import './Header.css'
 
 function Header(){
     return(
-        <h1 className="header">Making sure this works</h1>
+        <h1 className="header">Christopher Ospina's Awesome blog</h1>
     )
 }
 

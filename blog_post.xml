@@ -1,5 +1,7 @@
+ <?xml version="1.0" encoding ="UTF-8"?>
  <blog>
-	<post>
+   <posts>
+	<post id="1">
 		<date>April 22, 2023</date>
 		<author>Christopher Ospina</author>
 		<title>How will AI change the world</title>
@@ -17,7 +19,7 @@
 		be real it would lead to total disaster. 
 		</body>
 	</post>
-	<post>
+	<post id="2">
 		<date>April 23 2023</date>
 		<author>Christopher Ospina</author>
 		<title>My review of the Super Mario Movie</title>
@@ -31,16 +33,49 @@
 		from Princess Peach that Bowser itends to use the star to take over the Kingdom only because he has a crush on Peach
 		Mario and Peach intend to use the Kongs for assistance. I really enjoy how they incorporate themes from the Super Mario series
 		into the film's score and hidden references to other Mario media like the satruday morning cartoon and the 1993 live 
-		action movie. I am anticipating a sequel or even a shared Nintendo universe leading to a Super Smash Bros Movie</body>
+		action movie. I am anticipating a sequel or even a shared Nintendo universe leading to a Super Smash Bros Movie.
+		This is also part of a renaissance of animation from Universal Pictures that began with The Bad Guys and which included
+		Minions: Rise of Gru and Puss in Boots: The Last Wish. They own Illumination Entertainment and Dreamworks Animation.
+		A Super Mario sequel, a live action How To Train Your Dragon and Shrek 5 have been confirmed to be in the works. Also Epic Universe is under construction
+		at Universal Studios Orlando with Mario themed attractions as well as those from How to Train Your Dragon and
+		Fantastic Beasts. We all need a break from Disney's dominance and I think we are getting close to Universal
+		stealing the spotlight.</body>
 	</post>
-	<post>
-		<date></date>
+	<post id="3">
+		<date>April 24 2023</date>
 		<author>Christopher Ospina</author>
-		<title></title>
-		<summary>
-			<image_path></image_path>
-			<text></text>
+		<title>Top 10 Disney World attractions</title>
+		<summary>https
+			<image_path>://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbbitGAYVFzzZvhLmiSUEioiE8cZ8rCaZu_n6B2oiZXA</image_path>
+			<text>A countdown of my Top 10 Disney World Attractions that I have been on</text>
 		</summary>
-		<body></body>
+		<body>
+		The Disney theme parks are known for their attractions which amuse guests from all around the world. They could tell 
+		an original story or be themed to an existing Disney IP or even third-party if applicable. In these rides it is important
+		that they give guests the whole expierence of being part of the story that the ride is trying to tell. I have been lucky to
+		visit Walt Disney World resort in the past two years and before to expierence these thrills. Here's a countdown of the Top 10
+		attractions at Walt Disney World resort specifically Magic Kingdom, EPCOT and Disney's Hollywood Studios. 
+
+		Note: Splash Mountain is currently closed due to racism issues with its source material and will be rethemed to
+		Tiana's Bayou Adventure based on the 2009 film The Princess and The Frog.
+
+		 10. Twilight Zone Tower of Terror (DHS)
+		 9. Rock'n Roll Coaster Featuring Aerosmith (DHS)
+		 8. The Haunted Mansion (Magic Kingdom)
+		 7. Big Thunder Mountain Railroad (Magic Kingdom)
+		 6. Toy Story Mania (DHS)
+		 5. Pirates of the Caribbean (Magic Kingdom)
+		 4. Soarin' (EPCOT)
+		 3. Splash Mountain (Magic Kingdom)
+		 2. Test Track (EPCOT)
+		 1. Star Wars: Rise of the Resistance (DHS)
+	    
+		 Honorable Mentions:
+		  1. Spaceship Earth (EPCOT)
+		  2. Frozen Ever After (EPCOT)
+		  3. Peter Pan's Flight (Magic Kingdom)
+		  4. Seven Dwarfs Mine Train (Magic Kingdom)
+		</body>
 	</post>
+	</posts>
 </blog>
