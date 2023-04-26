@@ -48,11 +48,11 @@ const NewsNav=()=>{
                                 </Nav.Link>
                             </Nav>
                     </Container>
-                    <Container className="mt-3">
+                    <Container>
                     {newsData.map((article) => (
-                        <Card key={article.url} className="mb-3">
+                        <Card key={article.url} className={styles.card}>
                             <Card.Body>
-                                <Card.Text font-size="12px">{article.description}</Card.Text>
+                                <Card.Text>{article.description}</Card.Text>
                             </Card.Body>
                         </Card>
                     ))}

@@ -96,21 +96,15 @@ function Main() {
     return (
       <main>
         {selectedPost ? (
-          <article key={selectedPost.attributes.id}>
+          <article key={selectedPost.attributes.id} align="center">
             <h2>{selectedPost.children.find((el) => el.name === 'title').content}</h2>
             <p>
               <span className='date'>{selectedPost.children.find((el) => el.name === 'date').content}</span>
               <br/>
               <span className='author'>{selectedPost.children.find((el) => el.name === 'author').content}</span>
             </p>
-            <div className='summary'>
-              <img
-                src={selectedPost.children.find((el) => el.name === 'image_path').content}
-                alt={selectedPost.children.find((el) => el.name === 'title').content}
-              />
-               <span className='text'>{selectedPost.children.find((el) => el.name === 'text').content}</span>
-            </div>
             <span className='body'>{selectedPost.children.find((el) => el.name === 'body').content}</span>
+            <br/>
             <button onClick={() => setSelectedPost(null)}>Back</button>
           </article>
         ) : (
